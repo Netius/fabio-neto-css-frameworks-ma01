@@ -1,0 +1,16 @@
+.footer{
+    flex-shrink: 0;
+    background-color:getColour(light-gray) ;
+    
+    &__copyright{
+        float: right;
+    }
+    &__email{
+        color: getColour(txt-gray);
+        text-decoration: none;
+    }
+    &__email:hover{
+        color: getColour(primary);
+    } 
+} 
+

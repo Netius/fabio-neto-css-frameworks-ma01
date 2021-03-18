@@ -1,8 +1,16 @@
 .nav{
+    background-color: getColour(light-gray);
     &__list{
         margin-left: auto;
     }
+    &__link{
+        color: getColour(txt-gray);
+        text-decoration: none;
+    }
     &__link--active{
-        color: #c32c72;
+        color: getColour(primary);
+    }
+    &__logo{
+        font-size: 2em;
     }
 };
