@@ -4,9 +4,10 @@
     
     &__copyright{
         float: right;
+        color: getColour(secondary);
     }
     &__email{
-        color: getColour(txt-gray);
+        color: getColour(secondary);
         text-decoration: none;
     }
     &__email:hover{

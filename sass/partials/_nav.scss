@@ -1,14 +1,14 @@
 .nav{
-    background-color: getColour(light-gray);
+    background-color: getColour(light-gray)!important;
     &__list{
         margin-left: auto;
     }
     &__link{
-        color: getColour(txt-gray);
+        color: getColour(secondary) !important;
         text-decoration: none;
     }
     &__link--active{
-        color: getColour(primary);
+        color: getColour(primary) !important;
     }
     &__logo{
         font-size: 2em;
