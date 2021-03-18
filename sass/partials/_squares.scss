@@ -1,0 +1,35 @@
+.squares{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__header{
+        text-align: center;
+        font-size: 34px;
+        padding: 50px 0;
+    }
+
+    &__item{
+        height: 263px;
+        width: 263px;
+        border-radius: 15px;
+        margin: 1em;
+        border: 3px solid;
+        box-shadow: 7px 7px 9px -2px rgba(0,0,0,0.62);
+        }
+    &__item--grey{
+        background-color: getColour(light-grey);
+        border-color: getColour(light-grey);
+    }
+
+    &__item--white{
+        background-color: getColour(white);
+        border-color: getColour(primary);
+    }
+
+    &__item--pink{
+        background-color: getColour(primary);
+        border-color: getColour(white);
+    }
+
+}

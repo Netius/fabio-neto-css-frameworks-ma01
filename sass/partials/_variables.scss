@@ -1,9 +1,10 @@
 $colours: (
     primary: #c32c72,
     secondary: #8D8D8D,
-    light-gray: #F4F3EE,
+    light-grey: #F4F3EE,
     bg-grey: #E5E5E5,
     dark-grey: #6a6a6a,
+    white: #FFFFFF
 );
 
 @function getColour($colour) {

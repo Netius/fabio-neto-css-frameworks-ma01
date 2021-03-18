@@ -16,6 +16,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0;
+  background-color: #E5E5E5;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -46,9 +47,45 @@ body {
   font-size: 2em;
 }
 
-.circles__header {
+.squares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.squares__header {
   text-align: center;
   font-size: 34px;
+  padding: 50px 0;
+}
+
+.squares__item {
+  height: 263px;
+  width: 263px;
+  border-radius: 15px;
+  margin: 1em;
+  border: 3px solid;
+  -webkit-box-shadow: 7px 7px 9px -2px rgba(0, 0, 0, 0.62);
+          box-shadow: 7px 7px 9px -2px rgba(0, 0, 0, 0.62);
+}
+
+.squares__item--grey {
+  background-color: #F4F3EE;
+  border-color: #F4F3EE;
+}
+
+.squares__item--white {
+  background-color: #FFFFFF;
+  border-color: #c32c72;
+}
+
+.squares__item--pink {
+  background-color: #c32c72;
+  border-color: #FFFFFF;
 }
 
 .footer {
