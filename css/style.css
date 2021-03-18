@@ -39,7 +39,7 @@ body {
 }
 
 .nav__link--active {
-  color: #c32c72 !important;
+  color: #c32c72;
 }
 
 .nav__logo {
@@ -62,6 +62,6 @@ body {
 }
 
 .footer__email:hover {
-  color: #c32c72 !important;
+  color: #c32c72;
 }
 /*# sourceMappingURL=style.css.map */
