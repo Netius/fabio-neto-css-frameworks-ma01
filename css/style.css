@@ -60,7 +60,7 @@ body {
 .squares__header {
   text-align: center;
   font-size: 34px;
-  padding: 50px 0;
+  margin: 50px 0;
 }
 
 .squares__item {
